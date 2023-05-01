@@ -16,7 +16,6 @@ const listGalelery = galleryItems
 gallery.insertAdjacentHTML("beforeend", listGalelery);
 
 var lightbox = new SimpleLightbox(".gallery a", {
-  //   captionType: "alt",
   captionsData: "alt",
   captionDelay: 250,
 });
