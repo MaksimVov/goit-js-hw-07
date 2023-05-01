@@ -38,8 +38,6 @@ gallery.addEventListener("click", (elem) => {
   closesModalWindow();
 });
 
-// closes the modal window
-
 function closesModalWindow() {
   if (modal) {
     window.addEventListener("keydown", (key) => {
