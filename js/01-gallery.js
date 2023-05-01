@@ -35,6 +35,12 @@ gallery.addEventListener("click", (elem) => {
   modal = true;
   elem.preventDefault();
 
+  closesModalWindow();
+});
+
+// closes the modal window
+
+function closesModalWindow() {
   if (modal) {
     window.addEventListener("keydown", (key) => {
       if (key.code === "Escape") {
@@ -43,4 +49,4 @@ gallery.addEventListener("click", (elem) => {
       }
     });
   }
-});
+}
